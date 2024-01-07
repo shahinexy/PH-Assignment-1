@@ -13,7 +13,7 @@ body {
 /* ============ Defauld style ==========  */
 section {
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 
 h1 {
@@ -51,3 +51,25 @@ font-weight: 400;
 .hero_area_text h5{
     margin-bottom: 20px;
 }
+
+/* ============ Discount area style =============== */
+.discount_area_text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.discount_area_text h1{
+    color: rgb(212, 161, 30);
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.discount_area_text p{
+    color: rgb(212, 161, 30);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.discoun_img{
+    text-align: center;
+}
+
