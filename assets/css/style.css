@@ -35,6 +35,11 @@ h5 {
     font-size: 32px;
     font-weight: 400;
 }
+p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    margin: 20px 0;
+}
 
 /* ========= Hreo area style ===========  */
 .hero_area {
@@ -45,6 +50,8 @@ h5 {
     border-radius: 16px;
     padding: 175px 345px;
     margin: 50px 0;
+    max-width: 1320px;
+    margin: 50px auto;
 }
 
 .hero_area_text {
@@ -113,3 +120,83 @@ h5 {
 
 
 /* ====================== party time style ============== */
+.party_time {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 16px;
+}
+
+.party_time p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.party_time span {
+    color: rgb(212, 161, 30);
+}
+
+.party_time button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(212, 161, 30);
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.party_time button:hover {
+    background: rgb(98, 158, 20);
+}
+
+
+/* coming soon area  */
+.commingsoon_container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.coming_text {
+    width: 33.33%;
+}
+
+.coming_img {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.coming_img img {
+    width: 100%;
+    border: 15px solid rgb(212, 161, 30);
+    border-radius: 100%;
+    padding: 40px;
+}
+
+.coming_text .color_p {
+    color: rgb(212, 161, 30);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.another_text {
+    padding-left: 35px;
+}
+
+.another_text h3 {
+    color: rgb(212, 161, 30);
+    padding-top: 100px;
+    margin-bottom: -10px;
+}
+
+.another_text img {
+    margin-top: 30px;
+}
