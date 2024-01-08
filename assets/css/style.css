@@ -196,8 +196,7 @@ p {
   border-radius: 100%;
   padding: 40px;
 }
-
-.coming_text .color_p {
+.color_p {
   color: rgb(212, 161, 30);
   font-size: 24px;
   margin-bottom: 20px;
@@ -251,4 +250,17 @@ p {
 .gift_box {
   position: absolute;
   bottom: 0px;
+}
+
+
+/* portfolio area style  */
+.portfolio_title{
+    padding-right: 425px;
+    margin-bottom: 50px;
+}
+.portfolio_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin: 25px 0;
 }
