@@ -40,7 +40,7 @@ p {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   margin: 20px 0;
-  line-height: 32px
+  line-height: 32px;
 }
 
 .primary_color {
@@ -132,8 +132,9 @@ p {
 .party_text button:hover {
   background: rgb(98, 158, 20);
 }
-.party_img{
-    padding-right: 20px;
+
+.party_img {
+  padding-right: 20px;
 }
 
 /* ====================== party time style ============== */
@@ -200,6 +201,7 @@ p {
   border-radius: 100%;
   padding: 40px;
 }
+
 .color_p {
   color: rgb(212, 161, 30);
   font-size: 24px;
@@ -230,126 +232,145 @@ p {
   color: #070211;
   font-size: 24px;
 }
+
 .shoping_gril {
   display: flex;
   justify-content: end;
   margin-top: 50px;
 }
+
 .shoping_gril .shoping_card {
   position: relative;
   top: 4px;
   z-index: -1;
 }
+
 .discunt_sale {
   position: absolute;
   top: 15%;
   left: -35%;
 }
+
 .gift_card {
   position: relative;
   height: 229px;
   border-radius: 16px 0px 16px 16px;
   background: rgb(212, 161, 30);
 }
+
 .gift_box {
   position: absolute;
   bottom: 0px;
 }
 
-
 /* ============== portfolio area style  ======================= */
-.portfolio_title{
-    padding-right: 425px;
-    margin-bottom: 50px;
+.portfolio_title {
+  padding-right: 425px;
+  margin-bottom: 50px;
 }
-.portfolio_container{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 25px;
-    margin: 25px 0;
+
+.portfolio_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  margin: 25px 0;
 }
-.portfolio_container img{
-    transition: all 0.5s;
+
+.portfolio_container img {
+  transition: all 0.5s;
 }
-.portfolio_container img:hover{
-    transform: scale(1.1);
+
+.portfolio_container img:hover {
+  transform: scale(1.1);
 }
 
 /* ================ subscription area style  =================== */
-.subscription_area{
-    width: 100%;
-    background-image: linear-gradient(
-      180deg,
-      rgba(255, 187, 0, 0.248) 0%,
-      rgba(255, 0, 0, 0) 100%
-    );
-    text-align: center;
-    padding: 100px 200px;
-    border-radius: 16px;
+.subscription_area {
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 187, 0, 0.248) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding: 100px 200px;
+  border-radius: 16px;
 }
+
 .subscription_area img {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
+
 .subscription_area input {
-    border: 2px solid rgb(212, 161, 30);
-    border-radius: 15px 0px 0px 15px;
-    padding: 20px 30px;
-    background-color: white;
-    margin-top: 50px;
-    width: 50%;
-}
-.subscription_area button{
-    color: #FFF;
-    padding: 20px 20px;
-    margin-left: -5px;
-    border: 2px solid rgb(212, 161, 30);
-    border-radius: 0px 15px 15px 0px;
-    background-color:rgb(212, 161, 30) ;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.subscription_area button:hover{
-    background-color: rgb(98, 158, 20);
+  border: 2px solid rgb(212, 161, 30);
+  border-radius: 15px 0px 0px 15px;
+  padding: 20px 30px;
+  background-color: white;
+  margin-top: 50px;
+  width: 50%;
 }
 
- /* ============== footer area style ===================  */
- footer{
-    background-color: #070211;
-    padding: 120px 140px;
- }
- footer p{
-    color: #FFF;
-font-size: 24px;
- }
+.subscription_area button {
+  color: #fff;
+  padding: 20px 20px;
+  margin-left: -5px;
+  border: 2px solid rgb(212, 161, 30);
+  border-radius: 0px 15px 15px 0px;
+  background-color: rgb(212, 161, 30);
+  cursor: pointer;
+  transition: 0.5s;
+}
 
- .footet_text{
-    display: flex;
-    justify-content: space-between;
- }
- .footer_right{
-    padding-right: 135px;
- }
- .footer_right p{
-    display: flex;
-    align-items: center;
- }
- .footer_right img{
-    margin-right: 15px;
- }
- hr{
-    height: 1px;
-    background: rgba(255, 255, 255, 0.15);
-    border: none;
-    margin: 50px 0;
- }
- .footer_icons{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
- }
- .footer_icons img{
-    transition: all 0.3s;
- }
- .footer_icons img:hover{
-    transform: translateY(-10px);
- }
+.subscription_area button:hover {
+  background-color: rgb(98, 158, 20);
+}
+
+/* ============== footer area style ===================  */
+footer {
+  background-color: #070211;
+  padding: 120px 140px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footet_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_right {
+  padding-right: 135px;
+}
+
+.footer_right p {
+  display: flex;
+  align-items: center;
+}
+
+.footer_right img {
+  margin-right: 15px;
+}
+
+hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  margin: 50px 0;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer_icons img {
+  transition: all 0.3s;
+}
+
+.footer_icons img:hover {
+  transform: translateY(-10px);
+}
